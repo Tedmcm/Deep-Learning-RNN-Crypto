@@ -81,7 +81,7 @@ Bitcoin Closing Price Prediction using daily closing prices Window size 1
 
 OVERALL OBSERVATIONS
 1. The only predictive value of the FNG index appears to be the reverse correlation at 
-   key inflection points, I would definetly try and use this in a strategy. As with other asset 
+   key inflection points, I could try further analysis to see if its possible to use this in a strategy. As with other asset 
    classes, sentiment is often wrong at trend changes. 
 2. The 'Closing Price" model is a pretty good indicator over the short and medium term time
    horizons. The Evaluated loss metric continued to drop with the shorting of the windows which  
