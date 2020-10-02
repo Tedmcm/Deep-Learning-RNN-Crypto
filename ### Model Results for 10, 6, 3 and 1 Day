@@ -1,0 +1,89 @@
+### Model Results for 10, 6, 3 and 1 Day Window Sizes###
+
+FNG INDEX Window size 10
+1. The observable loss ratio was in range of .0225 to .0245. The observable loss ratio increased slightly 
+   for the first couple of epochs but overall stayed flat through all 10. 
+2. Evaluated Model loss ratio .12418 
+3. The Price prediction at this windown length was very poor. It
+   totally disconnected from the price after about a month and was 
+   pretty much flat lined the whole time. During the first month it predicted
+   a higher price than the actual price and then reversed to show a much lower
+   price. In this FNG model window(10) there was a noticable pattern
+   of missing the kick off to big moves, actually it initially predicted the
+   opposite! 
+
+
+FNG INDEX Window size 6
+1. The observable loss ratio was in range of .0237 to .0254, while it went down 
+   initially it rose after the 2nd epoch and finally peaked after the 4th. Overall
+   it was pretty flat throughout. 
+2. Evaluated model loss ratio was .10839
+3  The price prediction was not any better at 6 window's vs 10, however it was 
+   more volatile. It again over predicted the price for the first month and then 
+   missed huge gains starting in May. In both FNG model window's(6 & 10) there was a noticable pattern
+   of missing the kick off to big moves, actually it initially predicted the
+   opposite! 
+
+FNG INDEX Window size 3
+1. The observable loss ratio was in range of .0314 to .0290, as with the other window's 
+   the pattern was an up and down wave. There really wasn't a consistant trend. 
+2. Evaluated model loss ratio was .11762
+3. The predicted price again for the FNG was not good at all with really no improvement vs previous
+   window's.
+
+FNG INDEX Window size 1
+1. The observable loss ratio was in range of .0517 to .0266, while the loss ratio started out higher
+   it showed a trend lower throughout the epoch's till about half way through where it leveled out. 
+2. Evaluated model loss ratio was .10977
+3. The predicted price chart again shows the same pattern, over estimating for the first month
+   and massively underestimating after about a month. Using this shorter window also definetly makes
+   the forcast more volatile.  
+
+
+
+
+Bitcoin Closing Price Prediction using daily closing prices Window size 10 
+1. The observable loss ratio was in range of .0148 to .0134, The observable loss ratio rose initially
+   and peaked about mid way through the epochs and gradually declined to end about flat. 
+2. Evaluated model loss ratio .06742
+3. The Price predicion was highly correlated out to about a month
+   at which point it lost it's correlation/predictive value. For the first month 
+   the price was spot on and then the actual price increased dramatically while
+   the prediction stayed pretty flat. 
+
+
+Bitcoin Closing Price Prediction using daily closing prices Window size 6
+1. The observable loss ratio was in range of .0176 to .0096, it initially rose
+   and then peaked mid way through. After epoch 5 it fell the rest of the way to 
+   end almost at 0. 
+2. Evaluated model loss ratio .0532
+3. The predicted price forcast improved noticably from the 10 window. Similar to the 
+   10 day window the correlaton/prediction really broke down after April but 
+   it definetly tracked prices after April better than the 10 day window. 
+
+
+Bitcoin Closing Price Prediction using daily closing prices Window size 3
+1. The observable loss ratio was in range of .0263 to .0070, the ratio slowly declined 
+   through the epochs and showed a pretty good trend. 
+2. Evaluated model loss ratio .03967
+3. The predicted price forecast continued to show an improvement with a shorter window
+   period. The correlation showed a meaningful improvement from April to June. 
+
+
+
+Bitcoin Closing Price Prediction using daily closing prices Window size 1
+1. The observable loss ratio was in range of .0448 to .0023, this window showed the best
+   results by far, consistantly dropping to almost 0. 
+2. Evaluated model loss ratio .03132
+3. The predicted price forecast again showed a noticalable improvement from the 3 day window. 
+   The most noticable part would be the improvement in the longer duration correlations. 
+
+
+OVERALL OBSERVATIONS
+1. The only predictive value of the FNG index appears to be the reverse correlation at 
+   key inflection points, I would definetly try and use this in a strategy. As with other asset 
+   classes, sentiment is often wrong at trend changes. 
+2. The 'Closing Price" model is a pretty good indicator over the short and medium term time
+   horizons. The Evaluated loss metric continued to drop with the shorting of the windows which  
+   tracked the overall improvement in the model. 
+3. Shorter duration windows showed a much better predictive value. 
