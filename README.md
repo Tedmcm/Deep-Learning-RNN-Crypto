@@ -58,6 +58,9 @@ I Used the above to answer the following:
 
 - - -
 
+### For My final analysis please reference the Model Results File. 
+
+
 ### Resources
 
 [Keras Sequential Model Guide](https://keras.io/getting-started/sequential-model-guide/)
