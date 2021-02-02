@@ -24,7 +24,7 @@ I started by:
 
 ## Instructions
 
-### How I Prepared the data for training and testing
+### How I prepared the data for training and testing
 
 I Used the starter code as a guide to create a Jupyter Notebook for each RNN. The starter code contains a function to create the window of time for the data in each dataset.
 
